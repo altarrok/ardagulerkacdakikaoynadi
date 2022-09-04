@@ -12,7 +12,7 @@ const Home: NextPage = () => {
       <div className="z-0 absolute w-screen h-screen bg-[url('/ardaguler.jpg')] bg-cover bg-top brightness-50 contrast-50 hue-rotate-30 saturate-150" />
       <div className="z-10 absolute w-screen h-screen flex flex-col justify-center items-center bg-white/30 font-['Nunito']">
         <h2 className="text-xl text-[#163962] font-bold">Arda Guler Kac Dakika Oynadi?</h2>
-        <h1 className="text-xl sm:text-9xl text-[#ffed00] my-5">146 Dakika</h1>
+        <h1 className="text-xl md:text-9xl text-[#ffed00] my-5">146 Dakika</h1>
         <h2 className="text-xl text-[#163962] font-bold">1500 Dakika Yolunda %9.73</h2>
       </div>
       <footer className="z-10 absolute w-screen text-center bottom-0 inset-x-0 font-['Nunito']">
