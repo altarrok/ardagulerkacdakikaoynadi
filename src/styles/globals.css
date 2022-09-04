@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
+
+html {
+    font-size: calc(15px + 0.390625vw);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
