@@ -16,7 +16,7 @@ const Home: NextPage = () => {
       <div className="z-10 absolute w-screen h-screen flex flex-col justify-center items-center bg-white/30 font-['Nunito']">
         <h2 className="text-xl text-[#163962] font-bold">Arda Guler Kac Dakika Oynadi?</h2>
         <h1 className="text-xl md:text-9xl text-[#ffed00] my-5">{dakika} Dakika</h1>
-        <h2 className="text-xl text-[#163962] font-bold">1500 Dakika Yolunda %{100 * dakika / 1500}</h2>
+        <h2 className="text-xl text-[#163962] font-bold">1500 Dakika Yolunda %{(100 * dakika / 1500).toFixed(2)}</h2>
       </div>
       <footer className="z-10 absolute w-screen text-center bottom-0 inset-x-0 font-['Nunito']">
         <h1 className="text-sm text-stone-400 bg-[#163962]/75">Fan sitesidir, telif sikintisi olursa lutfen altaybatuhanmail@gmail.com uzerinden ulasin, SANLI FENERBAHCE</h1>
