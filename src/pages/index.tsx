@@ -10,7 +10,6 @@ const Home: NextPage = () => {
         <title>Arda Guler Kac Dakika Oynadi</title>
         <meta name="description" content="Arda Guler Kac Dakika Oynadi" />
         <link rel="icon" href="/favicon.png" />
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3351474750680422" crossOrigin="anonymous"></script>
       </Head>
       <div className="z-0 absolute w-screen h-screen bg-[url('/ardaguler.jpg')] bg-cover bg-top brightness-50 contrast-50 hue-rotate-30 saturate-150" />
       <div className="z-10 absolute w-screen h-screen flex flex-col justify-center items-center bg-white/30 font-['Nunito']">
